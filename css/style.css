@@ -16,7 +16,21 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: 'Dancing Script';
+    src: url("../font/Dancing_Script/static/DancingScript-Regular.ttf");
+    font-weight: 500;
+}
+
 *{
     font-family: 'Tajawal', sans-serif;
 }
 
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+}
+
+p{
+    font-size: 18px;
+}
