@@ -22,12 +22,19 @@
     font-weight: 500;
 }
 
+@font-face {
+    font-family: 'DM Serif Text';
+    src: url("../font/DM_Serif_Text/DMSerifText-Regular.ttf");
+    font-weight: 500;
+}
+
 *{
     font-family: 'Tajawal', sans-serif;
 }
 
 .font2{
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'DM Serif Text', serif;
 }
 
 .navbar-brand{
