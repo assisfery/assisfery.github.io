@@ -16,11 +16,11 @@
     font-weight: bold;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Dancing Script';
     src: url("../font/Dancing_Script/static/DancingScript-Regular.ttf");
     font-weight: 500;
-}
+} */
 
 @font-face {
     font-family: 'DM Serif Text';
@@ -38,7 +38,7 @@
 }
 
 .navbar-brand{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'DM Serif Text', serif;
     font-size: 32px;
 }
 
