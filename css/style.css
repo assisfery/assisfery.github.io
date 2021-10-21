@@ -31,10 +31,14 @@
     font-size: 32px;
 }
 
-p{
+p, .nav-link{
     font-size: 18px;
 }
 
 .offcanvas-start {
     width: 70%;
+}
+
+.pt-big{
+    padding-top: 64px;;
 }
