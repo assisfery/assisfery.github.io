@@ -34,3 +34,7 @@
 p{
     font-size: 18px;
 }
+
+.offcanvas-start {
+    width: 70%;
+}
