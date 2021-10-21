@@ -11,7 +11,10 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="lib/jquery-3.5.1.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8B8MCM6BPL"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -26,15 +29,24 @@
     <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#home">assisfery</a>
-            <ul class="navbar-nav">
+            <div class="d-none d-md-block">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="navbar-nav d-block d-md-none">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#experience">Experience</a>
+                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobile-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
                 </li>
             </ul>
         </div>
@@ -207,6 +219,26 @@
         </div>
 
     </footer>
+
+    <div class="offcanvas offcanvas-start" id="mobile-menu">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title">Menu</h1>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" onclick="hideMobileMenu()">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills" onclick="hideMobileMenu()">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience" onclick="hideMobileMenu()">Experience</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
 </body>
 </html>
