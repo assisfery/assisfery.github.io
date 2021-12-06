@@ -1,0 +1,61 @@
+[
+    {
+        "field": "Frontend",
+        "skills": [
+            {
+                "name": "JavaScript",
+                "level": 100
+            },
+            {
+                "name": "VueJS",
+                "level": 100
+            },
+            {
+                "name": "Nuxt",
+                "level": 80
+            },
+            {
+                "name": "SvelteJS",
+                "level": 60
+            },
+            {
+                "name": "CSS",
+                "level": 80
+            },
+            {
+                "name": "Bootstrap",
+                "level": 100
+            }
+        ]
+    },
+
+    {
+        "field": "Backend",
+        "skills": [
+            {
+                "name": "PHP",
+                "level": 100
+            },
+            {
+                "name": "Laravel",
+                "level": 100
+            },
+            {
+                "name": "NodeJS",
+                "level": 100
+            },
+            {
+                "name": "AdonisJS",
+                "level": 60
+            },
+            {
+                "name": ".Net Framework",
+                "level": 100
+            },
+            {
+                "name": ".Net Core",
+                "level": 80
+            }
+        ]
+    }
+]
