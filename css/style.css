@@ -57,3 +57,11 @@ p, .nav-link{
 .uncolor{
     filter: grayscale(100%);
 }
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.modal-header{
+    border: none;
+}

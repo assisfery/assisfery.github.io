@@ -176,33 +176,20 @@
 
             <br><br><br>
             <h3>Worked With</h3>
+
+            <div v-if="loadingWorkedWith" class="text-center my-5">
+                <div class="spinner-border text-dark"></div>
+            </div>
+
             <div class="row">
 
-                <div class="col-12 col-md-4">
-                    <a href="https://bonako.com/" target="_blank" class="text-decoration-none text-dark text-center">
-                        <div class="bg-light rounded p-4 my-2">
-                            <img src="img/logo_bonako2.png" alt="logo bonako" height="64px" class="uncolor">                     
-                            <p class="text-secondary">Bonako</p>
+                <div class="col-12 col-md-4" v-for="company in workedWith">
+                    <div class="text-decoration-none text-dark text-center">
+                        <div class="bg-light rounded p-4 my-2 cursor-pointer" @click="selectCompany(company)">
+                            <img v-bind:src="company.logo" alt="logo" height="64px" class="uncolor">                     
+                            <p class="text-secondary">{{ company.name }}</p>
                         </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <a href="https://www.sisp.cv/" target="_blank" class="text-decoration-none text-dark text-center">
-                        <div class="bg-light rounded p-4 my-2">
-                            <img src="img/logo_sisp.png" alt="logo sisp" height="64px" class="uncolor">                     
-                            <p class="text-secondary">SISP</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <a href="https://chatrace.com/" target="_blank" class="text-decoration-none text-dark text-center">
-                        <div class="bg-light rounded p-4 my-2">
-                            <img src="img/logo_chatrace.svg" alt="logo chatrace" height="64px" class="uncolor">                     
-                            <p class="text-secondary">Chatrace</p>
-                        </div>
-                    </a>
+                    </div>
                 </div>
 
             </div>
@@ -296,6 +283,29 @@
         </div>
     </div>
     -->
+
+    <div class="modal fade" id="companyModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+            <div class="modal-header">
+                <h4 class="modal-title font2">{{ selectedCompany.name }}</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <p>{{ selectedCompany.description }}</p>
+
+                <a v-for="link in selectedCompany.links" :href="link.url" target="_blank" class="btn btn-outline-secondary rounded-pill m-1">
+                    {{ link.text }}
+                </a>
+
+            </div>
+            
+            </div>
+        </div>
+    </div>
 
 </div>
 </body>

@@ -19,6 +19,10 @@ $(document).ready(function(){
 
             loadingSkills: false,
             skills: [],
+
+            loadingWorkedWith: false,
+            workedWith: [],
+            selectedCompany: {},
     
         },
     
@@ -35,6 +39,26 @@ $(document).ready(function(){
                     }, 500);
                 });
                 
+            },
+
+            getWorkedWith: function() {
+
+                app.loadingWorkedWith = true;
+                $.get("api/worked-with.json", function(data){
+                    app.workedWith = data;
+
+                    setTimeout(function(){
+                        app.loadingWorkedWith = false;
+                    }, 500);
+                });
+                
+            },
+
+            selectCompany: function(company) {
+
+                app.selectedCompany = company;
+                $("#companyModal").modal("show");
+                
             }
 
         },
@@ -42,5 +66,6 @@ $(document).ready(function(){
     });
 
     app.getSkills();
+    app.getWorkedWith();
 
 });
