@@ -181,7 +181,7 @@
                 <div class="spinner-border text-dark"></div>
             </div>
 
-            <div class="row">
+            <div class="row" v-else>
 
                 <div class="col-12 col-md-4" v-for="company in workedWith">
                     <div class="text-decoration-none text-dark text-center">
@@ -196,33 +196,20 @@
 
             <br><br><br>
             <h3>Self Projects</h3>
-            <div class="row">
 
-                <div class="col-12 col-md-4">
-                    <a href="https://nhabex.com/" target="_blank" class="text-decoration-none text-dark text-center">
-                        <div class="bg-light rounded p-4 my-2">
-                            <img src="img/logo_nhabex.png" alt="logo nhabex" height="64px" class="uncolor">                     
-                            <p class="text-secondary">Nhabex</p>
-                        </div>
-                    </a>
-                </div>
+            <div v-if="loadingSelfProjects" class="text-center my-5">
+                <div class="spinner-border text-dark"></div>
+            </div>
 
-                <div class="col-12 col-md-4">
-                    <a href="https://faxi.online/" target="_blank" class="text-decoration-none text-dark text-center">
-                        <div class="bg-light rounded p-4 my-2">
-                            <img src="img/logo_faxi.png" alt="logo faxi" height="48px" class="uncolor my-2">                     
-                            <p class="text-secondary">Faxi</p>
-                        </div>
-                    </a>
-                </div>
+            <div class="row" v-else>
 
-                <div class="col-12 col-md-4">
-                    <a href="https://agendly.xyz/" target="_blank" class="text-decoration-none text-dark text-center">
-                        <div class="bg-light rounded p-4 my-2">
-                            <img src="img/logo_agendly.png" alt="logo agendly" height="48px" class="uncolor my-2">                     
-                            <p class="text-secondary">Agendly</p>
+                <div class="col-12 col-md-4" v-for="project in selfProjects">
+                    <div class="text-decoration-none text-dark text-center">
+                        <div class="bg-light rounded p-4 my-2 cursor-pointer" @click="selectProject(project)">
+                            <img v-bind:src="project.logo" alt="logo" height="64px" class="uncolor">                     
+                            <p class="text-secondary">{{ project.name }}</p>
                         </div>
-                    </a>
+                    </div>
                 </div>
 
             </div>
@@ -298,6 +285,29 @@
                 <p>{{ selectedCompany.description }}</p>
 
                 <a v-for="link in selectedCompany.links" :href="link.url" target="_blank" class="btn btn-outline-secondary rounded-pill m-1">
+                    {{ link.text }}
+                </a>
+
+            </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="projectModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+            <div class="modal-header">
+                <h4 class="modal-title font2">{{ selectedProject.name }}</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <p>{{ selectedProject.description }}</p>
+
+                <a v-for="link in selectedProject.links" :href="link.url" target="_blank" class="btn btn-outline-secondary rounded-pill m-1">
                     {{ link.text }}
                 </a>
 

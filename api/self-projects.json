@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Nhabex",
+        "logo": "img/logo_nhabex.png",
+        "description": "NhaBex allows users to monitor queues and obtain tickets remotely, without the need to be at the service point.",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://nhabex.com/"
+            },
+            {
+                "text": "Facebook",
+                "url": "https://www.facebook.com/nhabex"
+            }
+        ],
+        "screenshots": []
+    },
+    {
+        "name": "Faxi",
+        "logo": "img/logo_faxi.png",
+        "description": "Cape Verde's online payment platform whose main objective is to offer the greatest convenience to users, with simple, fast and secure payments.",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://faxi.online/"
+            },
+            {
+                "text": "Linkedin",
+                "url": "https://www.linkedin.com/company/faxionline"
+            },
+            {
+                "text": "Facebook",
+                "url": "https://www.facebook.com/www.faxi.online"
+            },
+            {
+                "text": "Instagram",
+                "url": "http://instagram.com/faxi.online"
+            },
+            {
+                "text": "Youtube",
+                "url": "https://www.youtube.com/channel/UCX4eHhDarykMalBkX2I8GLg"
+            },
+            {
+                "text": "Tiktok",
+                "url": "https://www.tiktok.com/@faxi.online"
+            }        
+        ],
+        "screenshots": []
+    },
+    {
+        "name": "Agendly",
+        "logo": "img/logo_agendly.png",
+        "description": "Online appointment in simple and smartiest way.",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://agendly.xyz/"
+            },
+            {
+                "text": "Linkedin",
+                "url": "https://www.linkedin.com/company/agendly/"
+            },
+            {
+                "text": "Facebook",
+                "url": "https://www.facebook.com/agendly"
+            }       
+        ],
+        "screenshots": []
+    }
+]

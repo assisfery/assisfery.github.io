@@ -24,6 +24,9 @@ $(document).ready(function(){
             workedWith: [],
             selectedCompany: {},
     
+            loadingSelfProjects: false,
+            selfProjects: [],
+            selectedProject: {},
         },
     
         methods: {
@@ -59,6 +62,26 @@ $(document).ready(function(){
                 app.selectedCompany = company;
                 $("#companyModal").modal("show");
                 
+            },
+
+            getSelfProjects: function() {
+
+                app.loadingSelfProjects = true;
+                $.get("api/self-projects.json", function(data){
+                    app.selfProjects = data;
+
+                    setTimeout(function(){
+                        app.loadingSelfProjects = false;
+                    }, 500);
+                });
+                
+            },
+
+            selectProject: function(project) {
+
+                app.selectedProject = project;
+                $("#projectModal").modal("show");
+                
             }
 
         },
@@ -67,5 +90,6 @@ $(document).ready(function(){
 
     app.getSkills();
     app.getWorkedWith();
+    app.getSelfProjects();
 
 });
