@@ -25,6 +25,14 @@
             {
                 "name": "Bootstrap",
                 "level": 100
+            },
+            {
+                "name": "Tailwind CSS",
+                "level": 80
+            },
+            {
+                "name": "React",
+                "level": 80
             }
         ]
     },
