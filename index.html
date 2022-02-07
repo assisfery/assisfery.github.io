@@ -284,9 +284,19 @@
 
                 <p>{{ selectedCompany.description }}</p>
 
+                <p class="m-0 mt-3">
+                    <b>Useful Links:</b>
+                </p>
                 <a v-for="link in selectedCompany.links" :href="link.url" target="_blank" class="btn btn-outline-secondary rounded-pill m-1">
                     {{ link.text }}
                 </a>
+
+                <p class="m-0 mt-3">
+                    <b>Used Technologies:</b>
+                </p>
+                <span v-for="tech in selectedCompany.technologies" class="text-dark m-1">
+                    {{ tech }}
+                </span>
 
             </div>
             
@@ -307,9 +317,19 @@
 
                 <p>{{ selectedProject.description }}</p>
 
+                <p class="m-0 mt-3">
+                    <b>Useful Links:</b>
+                </p>
                 <a v-for="link in selectedProject.links" :href="link.url" target="_blank" class="btn btn-outline-secondary rounded-pill m-1">
                     {{ link.text }}
                 </a>
+
+                <p class="m-0 mt-3">
+                    <b>Used Technologies:</b>
+                </p>
+                <span v-for="tech in selectedProject.technologies" class="text-dark m-1">
+                    {{ tech }}
+                </span>
 
             </div>
             

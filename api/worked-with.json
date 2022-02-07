@@ -17,6 +17,7 @@
                 "url": "https://www.facebook.com/bonako.ent"
             }
         ],
+        "technologies": [ "HTML", "CSS", "JS", "PHP" ],
         "screenshots": []
     },
     {
@@ -33,6 +34,7 @@
                 "url": "https://www.youtube.com/channel/UCjVxXDyd0oYes0QW63m5B5w"
             }
         ],
+        "technologies": [ "HTML", "CSS", "Bootstrap", "JS", "jQuery", "C#", "Asp .NET WebForms", ".NET Core", "Oracle", "PostgreSQL", "SOAP", "REST"],
         "screenshots": []
     },
     {
@@ -57,6 +59,7 @@
                 "url": "https://www.youtube.com/channel/UCzH6dsmlJmJvkWEehhJddpQ/featured"
             }
         ],
+        "technologies": [ "HTML", "CSS", "Bootstrap", "JS", "VueJS", "PHP", "Websocket", "REST" ],
         "screenshots": []
     }
 ]

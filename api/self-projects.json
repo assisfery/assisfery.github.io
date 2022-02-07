@@ -13,6 +13,7 @@
                 "url": "https://www.facebook.com/nhabex"
             }
         ],
+        "technologies": [ "HTML", "CSS", "Bootstrap", "JS", "Angular 1", "PHP", "Websocket", "REST", "MySQL" ],
         "screenshots": []
     },
     {
@@ -45,6 +46,7 @@
                 "url": "https://www.tiktok.com/@faxi.online"
             }        
         ],
+        "technologies": [ "HTML", "CSS", "Bootstrap", "JS", "VueJS", "PHP", "Laravel", "REST", "MySQL/MariaDB" ],
         "screenshots": []
     },
     {
@@ -65,6 +67,7 @@
                 "url": "https://www.facebook.com/agendly"
             }       
         ],
+        "technologies": [ "HTML", "CSS", "Bootstrap", "JS", "VueJS", "PHP", "Laravel", "REST", "MySQL/MariaDB" ],
         "screenshots": []
     }
 ]
