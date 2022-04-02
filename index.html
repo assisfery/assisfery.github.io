@@ -203,7 +203,7 @@
 
             <div class="row" v-else>
 
-                <div class="col-12 col-md-4" v-for="project in selfProjects">
+                <div class="col-12 col-md-4" v-for="project in selfProjects" v-if="project.status == 1">
                     <div class="text-decoration-none text-dark text-center">
                         <div class="bg-light rounded p-4 my-2 cursor-pointer" @click="selectProject(project)">
                             <img v-bind:src="project.logo" alt="logo" height="64px" class="uncolor">                     

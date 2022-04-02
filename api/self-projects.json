@@ -1,6 +1,7 @@
 [
     {
         "name": "Nhabex",
+        "status": 1,
         "logo": "img/logo_nhabex.png",
         "description": "NhaBex allows users to monitor queues and obtain tickets remotely, without the need to be at the service point.",
         "links": [
@@ -18,6 +19,7 @@
     },
     {
         "name": "Faxi",
+        "status": 1,
         "logo": "img/logo_faxi.png",
         "description": "Cape Verde's online payment platform whose main objective is to offer the greatest convenience to users, with simple, fast and secure payments.",
         "links": [
@@ -51,6 +53,7 @@
     },
     {
         "name": "Agendly",
+        "status": 0,
         "logo": "img/logo_agendly.png",
         "description": "Online appointment in simple and smartiest way.",
         "links": [
