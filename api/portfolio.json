@@ -131,6 +131,33 @@
     },
 
     {
+        "name": "Portal for Digital Certificates",
+        "visible": 1,
+
+        "logo": "",
+        "favicon": "img/logo_sisp.png",
+        "cover": "img/portfolio/sisp-pki-portal/cover.jpg",
+
+        "associatedWith": "At SISP",
+        "status": "In Production",
+
+        "description": "Portal for order digital certificates and issuing timestamp seals for documents.",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://pki.sisp.cv"
+            }
+        ],
+        "technologies": ["HTML", "CSS", "JS", "JQuery", "Bootstrap", "C#", ".NET Core", "SOAP", "ORACLE"],
+
+        "screenshots": [
+            "img/portfolio/sisp-pki-portal/cover.jpg",
+            "img/portfolio/sisp-pki-portal/1.jpg",
+            "img/portfolio/sisp-pki-portal/2.jpg"
+        ]
+    },
+
+    {
         "name": "Faxi",
         "visible": 1,
 
