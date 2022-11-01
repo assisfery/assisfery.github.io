@@ -5,7 +5,7 @@
 
         "logo": "img/logo_nhabex.png",
         "favicon": "img/logo_nhabex.png",
-        "cover": "img/portfolio/nhabex/cover.png",
+        "cover": "img/portfolio/nhabex/cover.jpg",
 
         "associatedWith": "Self Project",
         "status": "In Production",
@@ -22,7 +22,11 @@
             }
         ],
         "technologies": [ "HTML", "CSS", "Bootstrap", "JS", "Angular 1", "PHP", "Websocket", "REST", "MySQL" ],
-        "screenshots": []
+
+        "screenshots": [
+            "img/portfolio/nhabex/cover.jpg",
+            "img/portfolio/nhabex/cover.jpg"
+        ]
     },
     {
         "name": "Faxi",
@@ -30,7 +34,7 @@
 
         "logo": "img/logo_faxi.png",
         "favicon": "img/favicon/favicon_faxi.png",
-        "cover": "img/portfolio/faxi/cover.png",
+        "cover": "img/portfolio/faxi/cover.jpg",
 
         "associatedWith": "Self Project",
         "status": "In Production",
@@ -63,15 +67,18 @@
             }        
         ],
         "technologies": [ "HTML", "CSS", "Bootstrap", "JS", "VueJS", "PHP", "Laravel", "REST", "MySQL/MariaDB" ],
-        "screenshots": []
+        
+        "screenshots": [
+            "img/portfolio/faxi/cover.jpg"
+        ]
     },
     {
         "name": "Agendly",
-        "visible": 1,
+        "visible": 0,
 
         "logo": "img/logo_agendly.png",
         "favicon": "img/logo_agendly.png",
-        "cover": "img/portfolio/agendly/cover.png",
+        "cover": "img/portfolio/agendly/cover.jpg",
 
         "associatedWith": "Self Project",
         "status": "In Production",
@@ -92,6 +99,9 @@
             }       
         ],
         "technologies": [ "HTML", "CSS", "Bootstrap", "JS", "VueJS", "PHP", "Laravel", "REST", "MySQL/MariaDB" ],
-        "screenshots": []
+        
+        "screenshots": [
+            "img/portfolio/agendly/cover.jpg"
+        ]
     }
 ]

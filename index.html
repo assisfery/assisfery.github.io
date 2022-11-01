@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
 
     <script src="lib/jquery-3.5.1.min.js"></script>
     <script src="lib/bootstrap.min.js"></script>
     <script src="lib/vue.min.js"></script>
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
     <script src="js/script.js"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8B8MCM6BPL"></script>
@@ -339,10 +341,18 @@
 
             <div class="modal-body">
 
+                <el-carousel indicator-position="outside" v-if="selectedProject.screenshots && selectedProject.screenshots.length >= 1">
+                    <el-carousel-item v-for="slide in selectedProject.screenshots">
+                        <div class="img-box">
+                            <img v-bind:src="slide" alt="slide" class="">
+                        </div>
+                    </el-carousel-item>
+                  </el-carousel>
+
                 <p>{{ selectedProject.description }}</p>
 
                 <p class="m-0 mt-3">
-                    <b>Useful Links:</b>
+                    <b>Links:</b>
                 </p>
                 <a v-for="link in selectedProject.links" :href="link.url" target="_blank" class="btn btn-outline-secondary rounded-pill m-1">
                     {{ link.text }}
