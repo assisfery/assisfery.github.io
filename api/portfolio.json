@@ -247,5 +247,25 @@
             "img/portfolio/agendly/4.jpg",
             "img/portfolio/agendly/5.jpg"
         ]
+    },
+
+    {
+        "name": "Real-time MultiChannel Inbox",
+        "visible": 1,
+
+        "logo": "",
+        "favicon": "img/logo_chatrace.svg",
+        "cover": "img/portfolio/chatrace-inbox/cover.jpg",
+
+        "associatedWith": "At Chatrace",
+        "status": "In Production",
+
+        "description": "Multichannel conversation module that allows managers to talk to customers and help the chatbot respond to customers.",
+        "links": [],
+        "technologies": ["HTML", "CSS", "JS", "VueJS", "Bootstrap", "PHP", "REST", "MySQL", "WebSocket"],
+
+        "screenshots": [
+            "img/portfolio/chatrace-inbox/cover.jpg"
+        ]
     }
 ]
