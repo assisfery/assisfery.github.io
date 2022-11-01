@@ -54,6 +54,10 @@ p, .nav-link{
     padding-top: 96px !important;
 }
 
+.pb-big{
+    padding-bottom: 96px !important;
+}
+
 .uncolor{
     filter: grayscale(100%);
 }

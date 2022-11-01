@@ -61,5 +61,22 @@
         ],
         "technologies": [ "HTML", "CSS", "Bootstrap", "JS", "VueJS", "PHP", "Websocket", "REST" ],
         "screenshots": []
+    },
+    {
+        "name": "Devnology",
+        "logo": "img/logo_devnology.svg",
+        "description": "Devnology is a product of IN8, a company specialized in creating technologies for businesses with extensive experience in the market.",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://devnology.com.br/"
+            },
+            {
+                "text": "Linkedin",
+                "url": "https://www.linkedin.com/company/devnology-br"
+            }
+        ],
+        "technologies": [ "Flutter", "REST", "PHP", "Laravel", "NodeJS", "AdonisJS", "NestJS", "AWS EC2", "AWS ECS" ],
+        "screenshots": []
     }
 ]

@@ -171,14 +171,12 @@
 
     </section>
 
-    <section id="experience" class="py-5 pt-big">
+    <section id="experience" class="py-5 pt-big pb-big bg-light">
 
         <div class="container">
 
             <h1 class="text-center font2">Experience</h1>
-
-            <br><br><br>
-            <h3>Worked With</h3>
+            <br>
 
             <div v-if="loadingWorkedWith" class="text-center my-5">
                 <div class="spinner-border text-dark"></div>
@@ -187,18 +185,26 @@
             <div class="row" v-else>
 
                 <div class="col-12 col-md-4" v-for="company in workedWith">
-                    <div class="text-decoration-none text-dark text-center">
-                        <div class="bg-light rounded p-4 my-2 cursor-pointer" @click="selectCompany(company)">
-                            <img v-bind:src="company.logo" alt="logo" height="64px" class="uncolor">                     
+                    <div class="text-decoration-none text-dark text-center mb-3">
+                        <div class="bg-white rounded p-4 my-2 cursor-pointer" @click="selectCompany(company)">
+                            <img v-bind:src="company.logo" alt="logo" height="64px" style="max-width: 200px;" class="uncolor">                     
                             <p class="text-secondary">{{ company.name }}</p>
                         </div>
                     </div>
                 </div>
 
             </div>
+        
+        </div>
 
-            <br><br><br>
-            <h3>Self Projects</h3>
+    </section>
+
+    <section class="py-5 pt-big">
+
+        <div class="container">
+
+            <h1 class="text-center font2">Portfolio</h1>
+            <br>
 
             <div v-if="loadingSelfProjects" class="text-center my-5">
                 <div class="spinner-border text-dark"></div>
