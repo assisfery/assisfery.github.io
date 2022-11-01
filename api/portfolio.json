@@ -34,7 +34,7 @@
         "favicon": "img/logo_nhabex.png",
         "cover": "img/portfolio/nhabex/cover.jpg",
 
-        "associatedWith": "Self Project",
+        "associatedWith": "Personal Project",
         "status": "In Production",
 
         "description": "NhaBex allows users to monitor queues and obtain tickets remotely, without the need to be at the service point.",
@@ -58,6 +58,79 @@
     },
 
     {
+        "name": "SISP Website",
+        "visible": 1,
+
+        "logo": "",
+        "favicon": "img/logo_sisp.png",
+        "cover": "img/portfolio/sisp-website/cover.jpg",
+
+        "associatedWith": "At SISP",
+        "status": "In Production",
+
+        "description": "Creation and improvement of the new Sisp Website with a modern and responsive design..",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://www.sisp.cv/"
+            }
+        ],
+        "technologies": ["HTML", "CSS", "JS", "JQuery", "Bootstrap", "C#", "ASP NET WebForms", "SOAP", "ORACLE"],
+
+        "screenshots": [
+            "img/portfolio/sisp-website/cover.jpg",
+            "img/portfolio/sisp-website/1.jpg",
+            "img/portfolio/sisp-website/2.jpg"
+        ]
+    },
+
+    {
+        "name": "Portal for Service Entities",
+        "visible": 1,
+
+        "logo": "",
+        "favicon": "img/logo_sisp.png",
+        "cover": "img/portfolio/sisp-service-entities-portal/cover.jpg",
+
+        "associatedWith": "At SISP",
+        "status": "In Production",
+
+        "description": "Portal aimed at companies from different sectors of activity that provide services on Rede vinti4.",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://entidadeservico.vinti4.cv/default"
+            }
+        ],
+        "technologies": ["HTML", "CSS", "JS", "JQuery", "Bootstrap", "C#", "ASP NET WebForms", "SOAP", "ORACLE"],
+
+        "screenshots": [
+            "img/portfolio/sisp-service-entities-portal/cover.jpg",
+            "img/portfolio/sisp-service-entities-portal/1.jpg"
+        ]
+    },
+
+    {
+        "name": "Easylink vinti4",
+        "visible": 1,
+
+        "logo": "",
+        "favicon": "img/logo_sisp.png",
+        "cover": "img/portfolio/easylink/cover.jpg",
+
+        "associatedWith": "At SISP",
+        "status": "In Production",
+
+        "description": "Service for creating direct payment links for sales of merchants' products and services.",
+        "links": [],
+        "technologies": ["HTML", "CSS", "JS", "JQuery", "Bootstrap", "C#", "ASP NET WebForms", "SOAP", "ORACLE"],
+
+        "screenshots": [
+            "img/portfolio/easylink/cover.jpg"
+        ]
+    },
+
+    {
         "name": "Faxi",
         "visible": 1,
 
@@ -65,7 +138,7 @@
         "favicon": "img/favicon/favicon_faxi.png",
         "cover": "img/portfolio/faxi/cover.jpg",
 
-        "associatedWith": "Self Project",
+        "associatedWith": "Personal Project",
         "status": "In Production",
 
         "description": "Cape Verde's online payment platform whose main objective is to offer the greatest convenience to users, with simple, fast and secure payments.",
@@ -116,7 +189,7 @@
         "favicon": "img/logo_agendly.png",
         "cover": "img/portfolio/agendly/cover.jpg",
 
-        "associatedWith": "Self Project",
+        "associatedWith": "Personal Project",
         "status": "Suspended",
 
         "description": "Online appointment in simple and smartiest way.",
