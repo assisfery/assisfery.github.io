@@ -25,7 +25,8 @@
 
         "screenshots": [
             "img/portfolio/nhabex/cover.jpg",
-            "img/portfolio/nhabex/cover.jpg"
+            "img/portfolio/nhabex/1.jpg",
+            "img/portfolio/nhabex/2.jpg"
         ]
     },
     {
@@ -69,7 +70,13 @@
         "technologies": [ "HTML", "CSS", "Bootstrap", "JS", "VueJS", "PHP", "Laravel", "REST", "MySQL/MariaDB" ],
         
         "screenshots": [
-            "img/portfolio/faxi/cover.jpg"
+            "img/portfolio/faxi/cover.jpg",
+            "img/portfolio/faxi/1.jpg",
+            "img/portfolio/faxi/2.jpg",
+            "img/portfolio/faxi/3.jpg",
+            "img/portfolio/faxi/4.jpg",
+            "img/portfolio/faxi/5.jpg",
+            "img/portfolio/faxi/6.jpg"
         ]
     },
     {
@@ -81,7 +88,7 @@
         "cover": "img/portfolio/agendly/cover.jpg",
 
         "associatedWith": "Self Project",
-        "status": "In Production",
+        "status": "Suspended",
 
         "description": "Online appointment in simple and smartiest way.",
         "links": [
@@ -101,7 +108,7 @@
         "technologies": [ "HTML", "CSS", "Bootstrap", "JS", "VueJS", "PHP", "Laravel", "REST", "MySQL/MariaDB" ],
         
         "screenshots": [
-            "img/portfolio/agendly/cover.jpg"
+            "img/portfolio/agendly/cover.jpg"            
         ]
     }
 ]

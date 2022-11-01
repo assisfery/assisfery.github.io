@@ -75,7 +75,12 @@ p, .nav-link{
     height: 250px;
 }
 
-.img-box img{
+.img-box-big{
+    width: 100%;
+    height: 350px;
+}
+
+.img-box img, .img-box-big img{
     width: 100%;
     height: 100%;
     object-fit: contain;
