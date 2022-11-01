@@ -206,17 +206,21 @@
             <h1 class="text-center font2">Portfolio</h1>
             <br>
 
-            <div v-if="loadingSelfProjects" class="text-center my-5">
+            <div v-if="loadingPortfolio" class="text-center my-5">
                 <div class="spinner-border text-dark"></div>
             </div>
 
             <div class="row" v-else>
 
-                <div class="col-12 col-md-4" v-for="project in selfProjects" v-if="project.status == 1">
+                <div class="col-12 col-sm-6 col-md-4" v-for="project in portfolio" v-if="project.visible == 1">
                     <div class="text-decoration-none text-dark text-center">
                         <div class="bg-light rounded p-4 my-2 cursor-pointer" @click="selectProject(project)">
-                            <img v-bind:src="project.logo" alt="logo" height="64px" class="uncolor">                     
-                            <p class="text-secondary">{{ project.name }}</p>
+                            <div class="img-box">
+                                <img v-bind:src="project.cover" alt="cover" class="uncolor">
+                            </div>                     
+                            <p class="text-secondary">                                
+                                {{ project.name }}
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -328,7 +332,8 @@
             <div class="modal-content">
 
             <div class="modal-header">
-                <h4 class="modal-title font2">{{ selectedProject.name }}</h4>
+                <img v-bind:src="selectedProject.favicon" alt="logo" height="32px" class="uncolor">
+                <h4 class="modal-title font2 mx-1">{{ selectedProject.name }}</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
 

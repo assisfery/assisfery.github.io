@@ -24,8 +24,8 @@ $(document).ready(function(){
             workedWith: [],
             selectedCompany: {},
     
-            loadingSelfProjects: false,
-            selfProjects: [],
+            loadingPortfolio: false,
+            portfolio: [],
             selectedProject: {},
         },
     
@@ -64,14 +64,14 @@ $(document).ready(function(){
                 
             },
 
-            getSelfProjects: function() {
+            getPortfolio: function() {
 
-                app.loadingSelfProjects = true;
-                $.get("api/self-projects.json", function(data){
-                    app.selfProjects = data;
+                app.loadingPortfolio = true;
+                $.get("api/portfolio.json", function(data){
+                    app.portfolio = data;
 
                     setTimeout(function(){
-                        app.loadingSelfProjects = false;
+                        app.loadingPortfolio = false;
                     }, 500);
                 });
                 
@@ -90,6 +90,6 @@ $(document).ready(function(){
 
     app.getSkills();
     app.getWorkedWith();
-    app.getSelfProjects();
+    app.getPortfolio();
 
 });

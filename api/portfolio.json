@@ -1,8 +1,15 @@
 [
     {
         "name": "Nhabex",
-        "status": 1,
+        "visible": 1,
+
         "logo": "img/logo_nhabex.png",
+        "favicon": "img/logo_nhabex.png",
+        "cover": "img/portfolio/nhabex/cover.png",
+
+        "associatedWith": "Self Project",
+        "status": "In Production",
+
         "description": "NhaBex allows users to monitor queues and obtain tickets remotely, without the need to be at the service point.",
         "links": [
             {
@@ -19,8 +26,15 @@
     },
     {
         "name": "Faxi",
-        "status": 1,
+        "visible": 1,
+
         "logo": "img/logo_faxi.png",
+        "favicon": "img/favicon/favicon_faxi.png",
+        "cover": "img/portfolio/faxi/cover.png",
+
+        "associatedWith": "Self Project",
+        "status": "In Production",
+
         "description": "Cape Verde's online payment platform whose main objective is to offer the greatest convenience to users, with simple, fast and secure payments.",
         "links": [
             {
@@ -53,8 +67,15 @@
     },
     {
         "name": "Agendly",
-        "status": 0,
+        "visible": 1,
+
         "logo": "img/logo_agendly.png",
+        "favicon": "img/logo_agendly.png",
+        "cover": "img/portfolio/agendly/cover.png",
+
+        "associatedWith": "Self Project",
+        "status": "In Production",
+
         "description": "Online appointment in simple and smartiest way.",
         "links": [
             {
