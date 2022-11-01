@@ -352,6 +352,20 @@
                 <p>{{ selectedProject.description }}</p>
 
                 <p class="m-0 mt-3">
+                    <b>Where:</b>
+                </p>
+                <span class="text-dark m-1">
+                    {{ selectedProject.associatedWith }}
+                </span>
+
+                <p class="m-0 mt-3">
+                    <b>Status:</b>
+                </p>
+                <span class="text-dark m-1">
+                    {{ selectedProject.status }}
+                </span>
+
+                <p class="m-0 mt-3">
                     <b>Links:</b>
                 </p>
                 <a v-for="link in selectedProject.links" :href="link.url" target="_blank" class="btn btn-outline-secondary rounded-pill m-1">
