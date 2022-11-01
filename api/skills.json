@@ -33,6 +33,10 @@
             {
                 "name": "React",
                 "level": 80
+            },
+            {
+                "name": "Flutter",
+                "level": 80
             }
         ]
     },
@@ -68,11 +72,23 @@
     },
 
     {
-        "field": "Mobile",
+        "field": "DevOps",
         "skills": [
             {
-                "name": "Flutter",
+                "name": "Git",
+                "level": 100
+            },
+            {
+                "name": "Docker",
                 "level": 80
+            },
+            {
+                "name": "Google Compute Engine",
+                "level": 60
+            },
+            {
+                "name": "AWS EC2",
+                "level": 60
             }
         ]
     }
