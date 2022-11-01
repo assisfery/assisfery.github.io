@@ -1,5 +1,32 @@
 [
     {
+        "name": "Bonako Website",
+        "visible": 1,
+
+        "logo": "",
+        "favicon": "img/logo_bonako2.png",
+        "cover": "img/portfolio/bonako-website/cover.jpg",
+
+        "associatedWith": "At Bonako",
+        "status": "In Production",
+
+        "description": "Website for BONAKO to disclose the products developed, the services provided and other information.",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://bonako.com/"
+            }
+        ],
+        "technologies": [ "HTML", "CSS", "JS", "jQuery", "PHP"],
+
+        "screenshots": [
+            "img/portfolio/bonako-website/cover.jpg",
+            "img/portfolio/bonako-website/1.jpg",
+            "img/portfolio/bonako-website/2.jpg"
+        ]
+    },
+
+    {
         "name": "Nhabex",
         "visible": 1,
 
@@ -29,6 +56,7 @@
             "img/portfolio/nhabex/2.jpg"
         ]
     },
+
     {
         "name": "Faxi",
         "visible": 1,
@@ -79,6 +107,7 @@
             "img/portfolio/faxi/6.jpg"
         ]
     },
+
     {
         "name": "Agendly",
         "visible": 0,

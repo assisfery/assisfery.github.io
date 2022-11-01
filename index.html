@@ -214,7 +214,7 @@
 
             <div class="row" v-else>
 
-                <div class="col-12 col-sm-6 col-md-4" v-for="project in portfolio" v-if="project.visible == 1">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" v-for="project in portfolio" v-if="project.visible == 1">
                     <div class="text-decoration-none text-dark text-center">
                         <div class="bg-light rounded p-4 my-2 cursor-pointer" @click="selectProject(project)">
                             <div class="img-box">
@@ -334,7 +334,7 @@
             <div class="modal-content">
 
             <div class="modal-header">
-                <img v-bind:src="selectedProject.favicon" alt="logo" height="32px" class="uncolor">
+                <img v-if="selectedProject.favicon" v-bind:src="selectedProject.favicon" alt="logo" height="32px" class="uncolor">
                 <h4 class="modal-title font2 mx-1">{{ selectedProject.name }}</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
