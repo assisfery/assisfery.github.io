@@ -369,7 +369,7 @@
                 <p class="m-0 mt-3">
                     <b>Links:</b>
                 </p>
-                <a v-for="link in selectedProject.links" :href="link.url" target="_blank" class="btn btn-outline-secondary rounded-pill m-1">
+                <a v-for="link in selectedProject.links" v-if="link.visible != 0" :href="link.url" target="_blank" class="btn btn-outline-secondary rounded-pill m-1">
                     {{ link.text }}
                 </a>
 

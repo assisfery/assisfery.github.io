@@ -110,7 +110,7 @@
 
     {
         "name": "Agendly",
-        "visible": 0,
+        "visible": 1,
 
         "logo": "img/logo_agendly.png",
         "favicon": "img/logo_agendly.png",
@@ -123,21 +123,29 @@
         "links": [
             {
                 "text": "Website",
-                "url": "https://agendly.xyz/"
+                "url": "https://agendly.xyz/",
+                "visible": 0
             },
             {
                 "text": "Linkedin",
-                "url": "https://www.linkedin.com/company/agendly/"
+                "url": "https://www.linkedin.com/company/agendly/",
+                "visible": 0
             },
             {
                 "text": "Facebook",
-                "url": "https://www.facebook.com/agendly"
+                "url": "https://www.facebook.com/agendly",
+                "visible": 0
             }       
         ],
         "technologies": [ "HTML", "CSS", "Bootstrap", "JS", "VueJS", "PHP", "Laravel", "REST", "MySQL/MariaDB" ],
         
         "screenshots": [
-            "img/portfolio/agendly/cover.jpg"            
+            "img/portfolio/agendly/cover.jpg",
+            "img/portfolio/agendly/1.jpg",
+            "img/portfolio/agendly/2.jpg",
+            "img/portfolio/agendly/3.jpg",
+            "img/portfolio/agendly/4.jpg",
+            "img/portfolio/agendly/5.jpg"
         ]
     }
 ]
