@@ -250,22 +250,26 @@
     },
 
     {
-        "name": "Real-time MultiChannel Inbox",
+        "name": "123milhas Backoffice",
         "visible": 1,
 
         "logo": "",
-        "favicon": "img/logo_chatrace.svg",
-        "cover": "img/portfolio/chatrace-inbox/cover.jpg",
+        "favicon": "",
+        "cover": "img/portfolio/123milhas-backoffice/1.png",
 
-        "associatedWith": "At Chatrace",
+        "associatedWith": "At Devnology",
         "status": "In Production",
 
-        "description": "Multichannel conversation module that allows managers to talk to customers and help the chatbot respond to customers.",
+        "description": "Administrative panel and Dashboards for managing information related to various 123milhas services and products of 123milhas.",
         "links": [],
-        "technologies": ["HTML", "CSS", "JS", "VueJS", "Bootstrap", "PHP", "REST", "MySQL", "WebSocket"],
+        "technologies": ["Flutter", "NodeJS", "NestJS", "MySQL", "AWS"],
 
         "screenshots": [
-            "img/portfolio/chatrace-inbox/cover.jpg"
+            "img/portfolio/123milhas-backoffice/1.png",
+            "img/portfolio/123milhas-backoffice/2.png",
+            "img/portfolio/123milhas-backoffice/3.png"
         ]
     }
+
+
 ]
