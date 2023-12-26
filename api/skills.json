@@ -61,12 +61,8 @@
                 "level": 60
             },
             {
-                "name": ".Net Framework",
+                "name": ".Net",
                 "level": 100
-            },
-            {
-                "name": ".Net Core",
-                "level": 80
             }
         ]
     },
