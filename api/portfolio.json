@@ -289,5 +289,30 @@
             "img/portfolio/123milhas-backoffice/2.png",
             "img/portfolio/123milhas-backoffice/3.png"
         ]
+    },
+
+    {
+        "name": "123agentes",
+        "visible": 1,
+
+        "logo": "",
+        "favicon": "",
+        "cover": "img/portfolio/123milhas-123agentes/1.png",
+
+        "associatedWith": "At Devnology",
+        "status": "In Production",
+
+        "description": "Platform to facilitate the sale of airline tickets by partners/agents.",
+        "links": [],
+        "technologies": ["Flutter", "NodeJS", "AdonisJS", "MySQL", "AWS"],
+
+        "screenshots": [
+            "img/portfolio/123milhas-123agentes/1.png",
+            "img/portfolio/123milhas-123agentes/2.png",
+            "img/portfolio/123milhas-123agentes/3.png",
+            "img/portfolio/123milhas-123agentes/4.png",
+            "img/portfolio/123milhas-123agentes/5.png",
+            "img/portfolio/123milhas-123agentes/6.png"
+        ]
     }
 ]
