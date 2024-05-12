@@ -1,6 +1,7 @@
 [
     {
         "name": "Bonako",
+        "visible": true,
         "logo": "img/logo_bonako2.png",
         "description": "Bonako produces digital games and mobile apps, inspired by Africa’s folklore, stories, games, and our rich African culture.",
         "links": [
@@ -22,6 +23,7 @@
     },
     {
         "name": "SISP",
+        "visible": true,
         "logo": "img/logo_sisp.png",
         "description": "SISP is a financial institution responsible for managing activities related to the development and use of means of payment in Cape Verde, dealing, in particular, with the management of banking systems for national and international payments, issuance and management of debit cards, and provision of services linked to electronic systems for payments and information and data transfer and management.",
         "links": [
@@ -39,6 +41,7 @@
     },
     {
         "name": "Chatrace",
+        "visible": true,
         "logo": "img/logo_chatrace.svg",
         "description": "Chatrace helps you to create chatbots to automate sales, marketing, and customer support with Messenger, WhatsApp, Instagram, SMS, Telegram, and Web chatbot.",
         "links": [
@@ -64,6 +67,7 @@
     },
     {
         "name": "Devnology",
+        "visible": true,
         "logo": "img/logo_devnology.svg",
         "description": "Devnology is a product of IN8, a company specialized in creating technologies for businesses with extensive experience in the market.",
         "links": [
@@ -77,6 +81,42 @@
             }
         ],
         "technologies": [ "Flutter", "REST", "PHP", "Laravel", "NodeJS", "AdonisJS", "NestJS", "AWS EC2", "AWS ECS" ],
+        "screenshots": []
+    },
+    {
+        "name": "Kwan",
+        "visible": true,
+        "logo": "img/logo_kwan.avif",
+        "description": "Company specialized in outsourcing and nearshoring of tech profiles.",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://kwan.com/"
+            },
+            {
+                "text": "Linkedin",
+                "url": "https://www.linkedin.com/company/kwancommunity/"
+            }
+        ],
+        "technologies": [],
+        "screenshots": []
+    },
+    {
+        "name": "Critical Manufacturing",
+        "visible": true,
+        "logo": "img/logo_criticalmanufacturing.svg",
+        "description": "Critical Manufacturing MES helps manufacturers to digitalize their operations to compete effectively, and easily adapt to changes in demand, opportunity or requirements, anywhere, at any time.",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://www.criticalmanufacturing.com/"
+            },
+            {
+                "text": "Linkedin",
+                "url": "https://www.linkedin.com/company/critical-manufacturing/"
+            }
+        ],
+        "technologies": [ ".Net", "C#", "Docker", "Azure Devops" ],
         "screenshots": []
     }
 ]

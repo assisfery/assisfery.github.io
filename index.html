@@ -195,7 +195,9 @@
                 <div class="col-12 col-md-4" v-for="company in workedWith">
                     <div class="text-decoration-none text-dark text-center mb-3">
                         <div class="bg-white rounded p-4 my-2 cursor-pointer" @click="selectCompany(company)">
-                            <img v-bind:src="company.logo" alt="logo" height="64px" style="max-width: 200px;" class="uncolor">                     
+                            <div class="img-box img-box-small mx-auto">
+                                <img v-bind:src="company.logo" alt="logo" class="uncolor">  
+                            </div>                                               
                             <p class="text-secondary">{{ company.name }}</p>
                         </div>
                     </div>
