@@ -314,5 +314,25 @@
             "img/portfolio/123milhas-123agentes/5.png",
             "img/portfolio/123milhas-123agentes/6.png"
         ]
+    },
+
+    {
+        "name": "Critical Manufacturing MES",
+        "visible": 1,
+
+        "logo": "",
+        "favicon": "",
+        "cover": "img/portfolio/criticalmanufacturing-mes/1.png",
+
+        "associatedWith": "At Critical Manufacturing",
+        "status": "In Production",
+
+        "description": "MES solution for manufacturers of discrete products with special focus on the following industries: Semiconductor, Electronics and Medical Devices.",
+        "links": [],
+        "technologies": [".Net", "C#", "Docker", "Angular", "Azure"],
+
+        "screenshots": [
+            "img/portfolio/criticalmanufacturing-mes/1.png"
+        ]
     }
 ]
