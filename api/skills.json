@@ -7,6 +7,10 @@
                 "level": 100
             },
             {
+                "name": "React",
+                "level": 80
+            },
+            {
                 "name": "VueJS",
                 "level": 100
             },
@@ -29,11 +33,7 @@
             {
                 "name": "Tailwind CSS",
                 "level": 80
-            },
-            {
-                "name": "React",
-                "level": 80
-            },
+            }, 
             {
                 "name": "Flutter",
                 "level": 80
@@ -45,11 +45,11 @@
         "field": "Backend",
         "skills": [
             {
-                "name": "PHP",
+                "name": "C#",
                 "level": 100
             },
             {
-                "name": "Laravel",
+                "name": ".Net",
                 "level": 100
             },
             {
@@ -57,11 +57,19 @@
                 "level": 100
             },
             {
-                "name": "AdonisJS",
-                "level": 60
+                "name": "NestJS",
+                "level": 80
             },
             {
-                "name": ".Net",
+                "name": "AdonisJS",
+                "level": 80
+            },
+            {
+                "name": "PHP",
+                "level": 100
+            },
+            {
+                "name": "Laravel",
                 "level": 100
             }
         ]
@@ -79,11 +87,15 @@
                 "level": 80
             },
             {
-                "name": "Google Compute Engine",
-                "level": 60
+                "name": "Azure",
+                "level": 80
             },
             {
-                "name": "AWS EC2",
+                "name": "Google Cloud Platform",
+                "level": 80
+            },
+            {
+                "name": "AWS",
                 "level": 60
             }
         ]
