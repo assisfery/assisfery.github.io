@@ -120,6 +120,24 @@
         "screenshots": []
     },
     {
+        "name": "Vitamina Digital",
+        "visible": true,
+        "logo": "img/vitamina-web.png",
+        "description": "Vitamina Digital (formerly VitaminaWeb) is a digital production company specializing in the planning, creation, development and management of digital projects.",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://vitaminaweb.digital/"
+            },
+            {
+                "text": "Linkedin",
+                "url": "https://www.linkedin.com/company/vitaminadigital/"
+            }
+        ],
+        "technologies": [],
+        "screenshots": []
+    },
+    {
         "name": "Fyld",
         "visible": true,
         "logo": "img/fyld-logo.svg",
