@@ -10,7 +10,7 @@
         "associatedWith": "At Bonako",
         "status": "In Production",
 
-        "description": "Website for BONAKO to disclose the products developed, the services provided and other information.",
+        "description": "Company website showcasing Bonako's products, services, and other information.",
         "links": [
             {
                 "text": "Website",
@@ -37,7 +37,7 @@
         "associatedWith": "Personal Project",
         "status": "In Production",
 
-        "description": "NhaBex allows users to monitor queues and obtain tickets remotely, without the need to be at the service point.",
+        "description": "NhaBex lets users monitor queues and get tickets remotely, without needing to be at the service point.",
         "links": [
             {
                 "text": "Website",
@@ -68,7 +68,7 @@
         "associatedWith": "At SISP",
         "status": "In Production",
 
-        "description": "Creation and improvement of the new Sisp Website with a modern and responsive design..",
+        "description": "Redesign and development of SISP's website with a modern, responsive interface.",
         "links": [
             {
                 "text": "Website",
@@ -95,7 +95,7 @@
         "associatedWith": "At SISP",
         "status": "In Production",
 
-        "description": "Portal aimed at companies from different sectors of activity that provide services on Rede vinti4.",
+        "description": "Portal for companies across various sectors that provide services on Rede vinti4.",
         "links": [
             {
                 "text": "Website",
@@ -121,7 +121,7 @@
         "associatedWith": "At SISP",
         "status": "In Production",
 
-        "description": "Service for creating direct payment links for sales of merchants' products and services.",
+        "description": "Service for generating direct payment links for merchants' products and services.",
         "links": [],
         "technologies": ["HTML", "CSS", "JS", "JQuery", "Bootstrap", "C#", "ASP NET WebForms", "SOAP", "ORACLE"],
 
@@ -141,7 +141,7 @@
         "associatedWith": "At SISP",
         "status": "In Production",
 
-        "description": "Portal for order digital certificates and issuing timestamp seals for documents.",
+        "description": "Portal for ordering digital certificates and issuing timestamp seals for documents.",
         "links": [
             {
                 "text": "Website",
@@ -168,7 +168,7 @@
         "associatedWith": "Personal Project",
         "status": "In Production",
 
-        "description": "Cape Verde's online payment platform whose main objective is to offer the greatest convenience to users, with simple, fast and secure payments.",
+        "description": "Cape Verde's online payment platform, built to make payments simple, fast and secure for everyone.",
         "links": [
             {
                 "text": "Website",
@@ -219,7 +219,7 @@
         "associatedWith": "Personal Project",
         "status": "Suspended",
 
-        "description": "Online appointment in simple and smartiest way.",
+        "description": "A simple, smart way to book appointments online.",
         "links": [
             {
                 "text": "Website",
@@ -260,7 +260,7 @@
         "associatedWith": "At Chatrace",
         "status": "In Production",
 
-        "description": "Multichannel conversation module that allows managers to talk to customers and help the chatbot respond to customers.",
+        "description": "Multichannel inbox that lets agents talk directly with customers and manage chatbot handoffs in real time.",
         "links": [],
         "technologies": ["HTML", "CSS", "JS", "VueJS", "Bootstrap", "PHP", "REST", "MySQL", "WebSocket"],
 
@@ -280,7 +280,7 @@
         "associatedWith": "At Devnology",
         "status": "In Production",
 
-        "description": "Administrative panel and Dashboards for managing information related to various 123milhas services and products of 123milhas.",
+        "description": "Administrative panel and dashboards for managing information across 123milhas' services and products.",
         "links": [],
         "technologies": ["Flutter", "NodeJS", "NestJS", "MySQL", "AWS"],
 
@@ -302,7 +302,7 @@
         "associatedWith": "At Devnology",
         "status": "In Production",
 
-        "description": "Platform to facilitate the sale of airline tickets by partners/agents.",
+        "description": "Platform enabling partner agents to sell airline tickets.",
         "links": [],
         "technologies": ["Flutter", "NodeJS", "AdonisJS", "MySQL", "AWS"],
 
@@ -327,7 +327,7 @@
         "associatedWith": "At Critical Manufacturing",
         "status": "In Production",
 
-        "description": "MES solution for manufacturers of discrete products with special focus on the following industries: Semiconductor, Electronics and Medical Devices.",
+        "description": "MES solution for discrete manufacturers, with a focus on the semiconductor, electronics and medical device industries.",
         "links": [],
         "technologies": [".Net", "C#", "Docker", "Angular", "Azure"],
 

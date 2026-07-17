@@ -3,7 +3,7 @@
         "name": "Bonako",
         "visible": true,
         "logo": "img/logo_bonako2.png",
-        "description": "Bonako produces digital games and mobile apps, inspired by Africa’s folklore, stories, games, and our rich African culture.",
+        "description": "Bonako creates digital games and mobile apps inspired by African folklore, storytelling, and culture.",
         "links": [
             {
                 "text": "Website",
@@ -25,7 +25,7 @@
         "name": "SISP",
         "visible": true,
         "logo": "img/logo_sisp_new.png",
-        "description": "SISP is a financial institution responsible for managing activities related to the development and use of means of payment in Cape Verde, dealing, in particular, with the management of banking systems for national and international payments, issuance and management of debit cards, and provision of services linked to electronic systems for payments and information and data transfer and management.",
+        "description": "SISP is Cape Verde's financial institution responsible for the national payment infrastructure, managing banking systems for domestic and international payments, debit card issuance, and the electronic systems behind payment processing and data transfer.",
         "links": [
             {
                 "text": "Website",
@@ -43,7 +43,7 @@
         "name": "Chatrace",
         "visible": true,
         "logo": "img/logo_chatrace.svg",
-        "description": "Chatrace helps you to create chatbots to automate sales, marketing, and customer support with Messenger, WhatsApp, Instagram, SMS, Telegram, and Web chatbot.",
+        "description": "Chatrace is a chatbot platform for automating sales, marketing, and customer support across Messenger, WhatsApp, Instagram, SMS, Telegram, and the web.",
         "links": [
             {
                 "text": "Website",
@@ -69,7 +69,7 @@
         "name": "Devnology",
         "visible": true,
         "logo": "img/logo_devnology.svg",
-        "description": "Devnology is a product of IN8, a company specialized in creating technologies for businesses with extensive experience in the market.",
+        "description": "Devnology, a product of IN8, builds custom technology solutions for businesses, backed by years of market experience.",
         "links": [
             {
                 "text": "Website",
@@ -87,7 +87,7 @@
         "name": "Kwan",
         "visible": true,
         "logo": "img/logo_kwan.avif",
-        "description": "Company specialized in outsourcing and nearshoring of tech profiles.",
+        "description": "Kwan connects companies with outsourced and nearshore tech talent.",
         "links": [
             {
                 "text": "Website",
@@ -105,7 +105,7 @@
         "name": "Critical Manufacturing",
         "visible": true,
         "logo": "img/logo_criticalmanufacturing.svg",
-        "description": "Critical Manufacturing MES helps manufacturers to digitalize their operations to compete effectively, and easily adapt to changes in demand, opportunity or requirements, anywhere, at any time.",
+        "description": "Critical Manufacturing builds MES software that helps manufacturers digitalize operations and adapt quickly to changes in demand and requirements.",
         "links": [
             {
                 "text": "Website",
@@ -123,7 +123,7 @@
         "name": "Vitamina Digital",
         "visible": true,
         "logo": "img/vitamina-web.png",
-        "description": "Vitamina Digital (formerly VitaminaWeb) is a digital production company specializing in the planning, creation, development and management of digital projects.",
+        "description": "Vitamina Digital (formerly VitaminaWeb) is a digital production company that plans, builds, and manages digital projects end to end.",
         "links": [
             {
                 "text": "Website",
@@ -141,7 +141,7 @@
         "name": "Fyld",
         "visible": true,
         "logo": "img/fyld-logo.svg",
-        "description": "Company specialized in outsourcing.",
+        "description": "Fyld provides IT outsourcing and staffing services.",
         "links": [
             {
                 "text": "Website",
@@ -159,7 +159,7 @@
         "name": "Grupo Ageas",
         "visible": true,
         "logo": "img/ageas-logo.svg",
-        "description": "The Ageas Group is an international organization in the insurance sector that offers insurance solutions and complementary services through brands such as Ageas Seguros, Médis and Seguro Directo, serving millions of customers and generating social impact through the Ageas Foundation.",
+        "description": "Ageas is an international insurance group offering insurance and complementary services through brands like Ageas Seguros, Médis, and Seguro Directo, serving millions of customers.",
         "links": [
             {
                 "text": "Website",
@@ -177,7 +177,7 @@
         "name": "Sporting Lisboa e Benfica",
         "visible": true,
         "logo": "img/slb-logo-new.svg",
-        "description": "A leading sports club in Portugal and Europe, recognized for its excellence in football, talent development and professional management.",
+        "description": "One of Portugal's leading sports clubs, recognized across Europe for its footballing excellence, talent development, and professional management.",
         "links": [
             {
                 "text": "Website",
