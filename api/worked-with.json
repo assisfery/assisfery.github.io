@@ -24,7 +24,7 @@
     {
         "name": "SISP",
         "visible": true,
-        "logo": "img/logo_sisp.png",
+        "logo": "img/logo_sisp_new.png",
         "description": "SISP is a financial institution responsible for managing activities related to the development and use of means of payment in Cape Verde, dealing, in particular, with the management of banking systems for national and international payments, issuance and management of debit cards, and provision of services linked to electronic systems for payments and information and data transfer and management.",
         "links": [
             {
@@ -117,6 +117,24 @@
             }
         ],
         "technologies": [ ".Net", "C#", "Docker", "Azure Devops" ],
+        "screenshots": []
+    },
+    {
+        "name": "Fyld",
+        "visible": true,
+        "logo": "img/fyld-logo.svg",
+        "description": "Company specialized in outsourcing.",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://www.fyld.pt/"
+            },
+            {
+                "text": "Linkedin",
+                "url": "https://www.linkedin.com/company/fyld/"
+            }
+        ],
+        "technologies": [],
         "screenshots": []
     }
 ]
