@@ -325,7 +325,7 @@
                     {{ link.text }}
                 </a>
 
-                <p class="m-0 mt-3">
+                <p class="m-0 mt-3" v-if="selectedCompany.technologies && selectedCompany.technologies.length > 0">
                     <b>Used Technologies:</b>
                 </p>
                 <span v-for="tech in selectedCompany.technologies" class="text-dark m-1">

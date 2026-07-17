@@ -134,7 +134,7 @@
                 "url": "https://www.linkedin.com/company/vitaminadigital/"
             }
         ],
-        "technologies": [],
+        "technologies": ["PHP", "Laravel", "VueJS", "jQuery", "Bootstrap", "Wordpress", "Paypal", "Google BigQuery"],
         "screenshots": []
     },
     {
@@ -170,7 +170,25 @@
                 "url": "https://www.linkedin.com/company/ageas/"
             }
         ],
-        "technologies": [],
+        "technologies": [".Net", "C#", "Sybase", "TFVS", "Git", "Azure Devops"],
+        "screenshots": []
+    },
+    {
+        "name": "Sporting Lisboa e Benfica",
+        "visible": true,
+        "logo": "img/slb-logo-new.svg",
+        "description": "A leading sports club in Portugal and Europe, recognized for its excellence in football, talent development and professional management.",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://www.slbenfica.pt/"
+            },
+            {
+                "text": "Linkedin",
+                "url": "https://www.linkedin.com/company/sport-lisboa-e-benfica/"
+            }
+        ],
+        "technologies": [".NET Core", "C#", "SQL Server", "Azure DevOps", "Azure", "GitHub"],
         "screenshots": []
     }
 ]
