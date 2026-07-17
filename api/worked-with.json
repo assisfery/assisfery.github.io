@@ -154,5 +154,23 @@
         ],
         "technologies": [],
         "screenshots": []
+    },
+    {
+        "name": "Grupo Ageas",
+        "visible": true,
+        "logo": "img/ageas-logo.svg",
+        "description": "The Ageas Group is an international organization in the insurance sector that offers insurance solutions and complementary services through brands such as Ageas Seguros, Médis and Seguro Directo, serving millions of customers and generating social impact through the Ageas Foundation.",
+        "links": [
+            {
+                "text": "Website",
+                "url": "https://www.ageas.com/en"
+            },
+            {
+                "text": "Linkedin",
+                "url": "https://www.linkedin.com/company/ageas/"
+            }
+        ],
+        "technologies": [],
+        "screenshots": []
     }
 ]
